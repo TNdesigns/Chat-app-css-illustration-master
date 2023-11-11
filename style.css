@@ -18,12 +18,12 @@ body,html{
 .grey-bg{
     height: 650px;
     width: 450px;
-    background-color: rgb(223, 234, 229);
+    background-color: rgb(249, 244, 250);
     border-top-left-radius: 85% 50%;
     border-top-right-radius: 85% 50%;
     position: absolute;
-    bottom: 0px;
-    right: -110px;
+    bottom: -30px;
+    right: -170px;
 }
 .content{
     min-height: 100%;
@@ -112,15 +112,15 @@ body,html{
     font-family: "Rubik";
     font-size: 9px;
     color: white;
-    position: relative;
-    top: 3.4vw;
-    left:-3vw;
+    position: absolute;
+    top: 50px;
+    left: 65px;
 }
 .dot3{
     z-index: 1;
     position: relative;
     top: 2.6vw;
-    left: 2vw;
+    left: 7vw;
     color:white;
 }
 .msg3 > img{
@@ -287,11 +287,12 @@ body,html{
     font-family: "Rubik";
     font-size: 15px;
     color: grey;
-    margin-right: 1020px;
+    margin-right: 860px;
     position: relative;
     top: 350px;
     left: 670px;
     line-height: 24px;
+    z-index: 1;
 }
 @media screen and (min-device-width:300px) and (max-device-width:399px){
     *{
